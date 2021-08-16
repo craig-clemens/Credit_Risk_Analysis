@@ -7,19 +7,29 @@ With something as difficult to predict as credit risk it is important to look at
 
 * Oversampling Results: When calculating a balanced accuracy score we generate a result of 65.3%. This is combined with a high risk precision that has a incredibly low positivity of 1% and a recall of 63%.
 
-!(NROversampling)
+!(NROversampling)[https://github.com/craig-clemens/Credit_Risk_Analysis/blob/main/Resources/NROversampling.PNG]
 
 * Smote Oversampling Results: here our accuracy score is 66% with a precision of high risk at a identical 1%. The recall here is 66%.
 
-!(SmoteOversampling)
+!(SmoteOversampling)[https://github.com/craig-clemens/Credit_Risk_Analysis/blob/main/Resources/SmoteOversampling.PNG]
 
 * Undersampling Results: here we can see that our undersampling balanced accuracy score is 43.5% while the precision is at 99% and the recall is at 44%
 
-!(Undersampling)
+!(Undersampling)[https://github.com/craig-clemens/Credit_Risk_Analysis/blob/main/Resources/Undersampling.PNG]
 
 * Combined Over and Under sampling Results: the balanced accuracy score for both combined Over and Under sampling  is 54.2% and the precision is 99% with a recall of 54%.
 
-!(Combination)
+!(Combination)[https://github.com/craig-clemens/Credit_Risk_Analysis/blob/main/Resources/Combination.PNG]
 
+* Balanced Random Forest Classifier Results: our accuracy score is 90.7%, our precision is 99% and the recall is 91%
 
+!(RandomForest)[https://github.com/craig-clemens/Credit_Risk_Analysis/blob/main/Resources/RandomForest.PNG]
  
+ * Easy Ensemble Classifier Results: the accuracy score is 94%, the precision score is 99% and the recall is 94%.
+
+ !(EasyEnsemble)[https://github.com/craig-clemens/Credit_Risk_Analysis/blob/main/Resources/EasyEnsemble.PNG]
+
+
+ ## Conclusion
+
+ In an ideal scenario there would be a good balance of recall and precision. With that in mind, it is clear that the ensmble classifier model is by far the supieror model. This offers us a balance of all models with high accuracy scores along with a decent balance of precision and recall scores.
